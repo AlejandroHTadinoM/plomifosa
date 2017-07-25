@@ -487,11 +487,33 @@ nav {
   margin:0 auto;
   display:block;
 }
-
 .card {
   margin-top: 2rem;
 }
-
 .icon {
   width: 32px;
+}
+.card-icon {
+  width: 64px;
+  margin-bottom: 2rem;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 1px;
+  background-color: #222;
+}
+
+.lead {
+  text-align: center;
+  margin: 2rem auto 0;
+  width: 80%;
+  font-size: 1.2em;
 }
