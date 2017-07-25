@@ -78,8 +78,8 @@
                           </div>
                           <div class="s-12 m-4 l-6" style="padding-top: 40px; padding-left: 20px;">
                           	<img align="left" style="margin: 0px 10px 0px 0px" src="img/whatsapp.jpg"> 0123 123 123<br><br>
-<img align="left" style="margin: 0px 10px 0px 0px" src="img/skype.jpg"> Usuario de skype<br><br>             
-<img align="left" style="margin: 0px 10px 0px 0px" src="img/email.png"><a href="#">Dirección de Email</a><br><br>
+                            <img align="left" style="margin: 0px 10px 0px 0px" src="img/skype.jpg"> Usuario de skype<br><br>             
+                            <img align="left" style="margin: 0px 10px 0px 0px" src="img/email.png"><a href="#">Dirección de Email</a><br><br>
                           </div>
                   </article>
                </div>
@@ -90,32 +90,14 @@
       <footer class="line">
          <div class="box">
             <div class="s-12 l-6">
-               <p>Copyright 2016, Derechos reservados</p>
+               <p>Copyright <span id="date"></span>, Derechos reservados</p>
             </div>
             <div class="s-12 l-6">
                <a class="right" href="http://www.clicnovo.com" title="ClicNovo Google Partner">Design by <strong>ClicNovo</strong></a>
             </div>
          </div>
       </footer>
-      <script src="js/formulario.js">
-      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>  
-      <script type="text/javascript">
-         jQuery(document).ready(function($) {	  
-           $("#owl-demo").owlCarousel({		
-         	navigation : true,
-         	slideSpeed : 300,
-         	paginationSpeed : 400,
-         	autoPlay : true,
-         	singleItem:true
-           });
-           $("#owl-demo2").owlCarousel({
-         	items : 4,
-         	lazyLoad : true,
-         	autoPlay : true,
-         	navigation : true,
-         	pagination : false
-           });
-         });	 
-      </script>
+      <script src="js/date.js"></script>
+      <script src="js/formulario.js"></script>
    </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "plomifosa",
+  "version": "1.0.0",
+  "description": "Microweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroHTadinoM/plomifosa.git"
+  },
+  "author": "Alejandro H Tadino M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroHTadinoM/plomifosa/issues"
+  },
+  "homepage": "https://github.com/AlejandroHTadinoM/plomifosa#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
