@@ -487,3 +487,11 @@ nav {
   margin:0 auto;
   display:block;
 }
+
+.card {
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 32px;
+}
